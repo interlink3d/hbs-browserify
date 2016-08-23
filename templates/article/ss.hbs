@@ -1,8 +1,9 @@
-<div class="ssEntry hidden show">
+<div class="ssEntry">
 <h1>The Solar System</h1>
   <ul>
   {{#each planets}}
-    <li>{{name}} is a {{type}} planet and the {{which @index}} in the system!</li>
+    <li>{{name}} is a {{type}} planet and the {{inc @index}} in the system!</li>
   {{/each}}
   </ul>
 </div>
+{{> tagLine this.taglineData}}

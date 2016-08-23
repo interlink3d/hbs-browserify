@@ -30,6 +30,7 @@ $("#entryOutput").append(entryTemplate(entryData));
 $(function() {
   $("#ssPop").click(function() {
     $("#ssOutput").append(ssTemplate(solarSystemData));
+    $("#ssPop").prop('disabled', true);
   });
 });
 

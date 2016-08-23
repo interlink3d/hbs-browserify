@@ -32,7 +32,12 @@ var solarSystemData = {
       type: "ice giant",
       name: "Neptune"
     }
-  ]
+  ],
+  taglineData: {
+    author_first_name: "Edgar",
+    author_last_name: "Barajas",
+    authored_date: "April 20, 2004 "
+  }
 };
 
 module.exports = solarSystemData;
