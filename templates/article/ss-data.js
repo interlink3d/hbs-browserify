@@ -35,4 +35,4 @@ var solarSystemData = {
   ]
 };
 
-module.exports = SolarSystemData;
+module.exports = solarSystemData;
